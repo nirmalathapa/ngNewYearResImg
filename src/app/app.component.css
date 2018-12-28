@@ -1,9 +1,7 @@
-
 body, html{
   margin: 0;
   padding: 0;
 }
-
 h1{
   text-align: center;
   font-family: fantasy;
@@ -12,4 +10,9 @@ h1{
   background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+.container{
+  display: table;
+  width: 100%;
+  margin: 0;
 }
